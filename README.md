@@ -7,7 +7,7 @@ A collection of OpenComputers programs
 #### Minimum Computer Requirements:
 ##### Tier 3 Computer Case
 ##### Tier 3 CPU
-##### Tier 3 RAM/Mermory
+##### Tier 3 RAM/Memory
 ##### Any Hard Drive
 ##### Any GPU
 ##### Internet Card
