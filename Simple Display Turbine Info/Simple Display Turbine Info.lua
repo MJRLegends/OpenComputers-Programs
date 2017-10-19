@@ -33,7 +33,11 @@ while true do
 	draw_text(1,1, "Turbine #: 1", colors.lime, colors.black)
 
 	draw_text(1,2, "Active: ", colors.lime, colors.black)
-	draw_text(1,3, string.format("bool",turbine.getActive()), colors.lime, colors.black)
+	if turbine.getActive() then
+		draw_text(1,3, "true", colors.lime, colors.black)	
+	else
+		draw_text(1,3, "false", colors.lime, colors.black)
+	end
 
 	draw_text(1,4, "RF/T: ", colors.white, colors.black)
 	draw_text(1,5, "" ..turbine.getEnergyProducedLastTick(), colors.lime, colors.black)
