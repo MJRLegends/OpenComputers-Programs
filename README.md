@@ -18,14 +18,14 @@ A collection of OpenComputers programs
 3. Connect your Reactor/s to the Computer using Cables from Open Computers
 4. Run the following: reactor.lua
 
-### Simple Display Reactor Info
+### Simple Display Reactor Info(Big Reactors and Extreme Reactors) 
 #### Steps to get working
 1. Run the following: pastebin get eQgjHFaU -f reactor_simple.lua
 2. Install Reactor Computer Ports the Reactor
 3. Connect your Reactor to the Computer using Cables from Open Computers
 4. Run the following: reactor_simple.lua
 
-### Simple Display Turbine Info
+### Simple Display Turbine Info(Big Reactors and Extreme Reactors) 
 #### Steps to get working
 1. Run the following: pastebin get s4EuEsd8 -f turbine_simple.lua
 2. Install Turbine Computer Ports the Turbine
