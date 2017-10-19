@@ -33,9 +33,13 @@ while true do
 	draw_text(1,1, "Reactor #: 1", colors.lime, colors.black)
 
 	draw_text(1,2, "Active: ", colors.lime, colors.black)
-	draw_text(1,3, string.format("bool",reactor1.getActive()), colors.lime, colors.black)
+	if reactor1.getActive() then
+		draw_text(1,3, "true", colors.lime, colors.black)	
+	else
+		draw_text(1,3, "false", colors.lime, colors.black)
+	end
 
-	if reactor1.isActivelyCooled then
+	if reactor1.isActivelyCooled() then
 		draw_text(1,4, "RF/T: ", colors.white, colors.black)
 	else
 		draw_text(1,4, "Hot Fluid/T: ", colors.white, colors.black)
@@ -62,7 +66,7 @@ while true do
 	draw_text(1,16, "Fuel Comsumption: ", colors.white, colors.black)
 	draw_text(1,17, "" ..reactor1.getFuelConsumedLastTick(), colors.lime, colors.black)
 
-	if reactor1.isActivelyCooled()then
+	if reactor1.isActivelyCooled() then
 		draw_text(1,18, "Water Tank: : ", colors.white, colors.black)
 		draw_text(1,19, "" ..reactor1.getCoolantAmount(), colors.lime, colors.black)
 		
